@@ -7,10 +7,22 @@ function Perfil() {
       <h1>Perfil</h1>
       <div className='perfil'>
       <img src={img} alt="" className='imagem'/>
-      <h1>Nome: usuario</h1>
-      <p>Sobre você:</p>
-      <p>Gênero favorito: ...</p>
-      <p>Livro favorito: ...</p>
+      <div className='inform_perfil'>
+      <h1>Nome: Cacau</h1>
+      </div>
+
+      <div className='inform_perfil'>
+      <p>Sobre você: Clara</p>
+      </div>
+
+      <div className='inform_perfil'>
+      <p>Gênero favorito: Romance</p>
+      </div>
+
+      <div className='inform_perfil'>
+      <p>Livro favorito: Iracema em cena</p>
+      </div>
+
       </div>
     </div>
   )
