@@ -3,9 +3,9 @@ import React from 'react'
 function SobreApag() {
   return (
     <div>
-      <h1>Sobre a Página</h1>
+      <h1 className='sobre'>Sobre a Página</h1>
       <div>
-        <p>skfhsgskfgvbsjfshnfjkabsndmfnszdfkszmnfvszmzdk
+        <p className='sobre1'>skfhsgskfgvbsjfshnfjkabsndmfnszdfkszmnfvszmzdk
         vznmskzvnzxmzxvkzxvmzxkvmzdvsszjvafjoazifvjao</p>
       </div>
     </div>

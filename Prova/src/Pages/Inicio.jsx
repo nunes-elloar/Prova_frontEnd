@@ -2,17 +2,18 @@ import React from 'react'
 import Livro1 from "../image/LV472645.webp"
 import Livro2 from "../image/09788525067425_1.webp"
 import Livro3 from "../image/1-67eed492626a5_mini.webp"
+import Livro4 from "../image/livroRomance.webp"
+import Livro5 from "../image/livroTerror.webp"
+import Livro6 from "../image/terrafamnormal1.jpg"
 
 function Inicio() {
   return (
-    <div className='container'>
+    <>
       <div className='pesquisas'>
        <input type="text" className='pesquisa'  placeholder='Pesquisa'/>
       </div>
+    <div className='container'>
       
-      
-
-      <h1>Sugestões</h1>
 
    {/* CATERORIA 1 (ELLOAR)*/}
       <div className='categoria1'>
@@ -62,7 +63,7 @@ function Inicio() {
 
       </div>
       <br />
-<hr />
+
       {/* CATEGORIA 2 */}
       <div className='categoria2'>
         <h1 className='h1R3'>Categoría: Românce</h1>
@@ -77,29 +78,31 @@ function Inicio() {
 
         <h1 className='h1C'>A Cinco Passos de Você</h1>
            <p>"A Cinco Passos de Você" conta a história de Stella e Will, <br />
-         dois jovens com fibrose cística, uma doença pulmonar grave. <br /> Eles se 
-          apaixonam, mas precisam manter uma distância de seis <br /> pés para  evitar 
-           a propagação de bactérias entre eles, já que <br />a doença é  contagiosa. 
-            O filme explora o desafio de manter um <br /> relacionamento amoroso com essa
-             limitação e a luta deles contra <br /> a doença, mostrando a importância de 
-             aproveitar <br />  a vida apesar das dificuldades.  </p>
+            dois jovens com fibrose cística, uma doença pulmonar grave. <br />
+             Eles se apaixonam, mas precisam manter uma distância de <br />
+              seis pés para  evitar a propagação de bactérias entre eles, <br />
+              já que a doença é  contagiosa.  O filme explora o <br />
+              desafio de manter um relacionamento amoroso com <br /> 
+              essalimitação e a luta deles contra a doença, <br />
+               mostrando a importância de aproveitar a vida apesar <br />
+                das dificuldades.  </p>
         </div>
 
         </div>
         <div className='categoriaR'>
 
-        <img src={Livro2} alt="livro1" className='imagemP' /> 
+        <img src={Livro4} alt="livro1" className='imagemP' /> 
 
         <div>
 
-        <h1 className='h1C'>Livro 2 Românce</h1>
-           <p>"A Cinco Passos de Você" conta a história de Stella e Will, <br />
-         dois jovens com fibrose cística, uma doença pulmonar grave. <br /> Eles se 
-          apaixonam, mas precisam manter uma distância de seis <br /> pés para  evitar 
-           a propagação de bactérias entre eles, já que <br />a doença é  contagiosa. 
-            O filme explora o desafio de manter um <br /> relacionamento amoroso com essa
-             limitação e a luta deles contra <br /> a doença, mostrando a importância de 
-             aproveitar <br />  a vida apesar das dificuldades.  </p>
+        <h1 className='h1C'>O Plano do Amor</h1>
+           <p>Uma trajetória emocionante e surpreendente <br />
+            sobre o amor com A maiúsculo, o Amor de Deus. <br />
+             Com um enredo que enaltece a redenção através <br />
+              da Graça de Deus, o perdão imerecido, as boas <br />
+               amizades, onde os personagens sempre parecem <br />
+               ser nossos bons e velhos conhecidos, uma leitura <br />
+                incrivelmente edificante. </p>
         </div>
 
         </div>
@@ -107,7 +110,7 @@ function Inicio() {
 
       </div>
       <br />
-      <hr className='hr'/>
+ 
 
       {/* CATEGORIA 3 */}
        <div className='categoria3'>
@@ -116,35 +119,31 @@ function Inicio() {
 
         <div className='categoriaT2'>
 
-        <img src={Livro2} alt="livro1" className='imagemP' /> 
+        <img src={Livro5} alt="livro1" className='imagemP' /> 
 
         <div>
 
-        <h1 className='h1C'>A Cinco Passos de Você</h1>
-        <p>"A Cinco Passos de Você" conta a história de Stella e Will, <br />
-         dois jovens com fibrose cística, uma doença pulmonar grave. <br /> Eles se 
-          apaixonam, mas precisam manter uma distância de seis <br /> pés para  evitar 
-           a propagação de bactérias entre eles, já que <br />a doença é  contagiosa. 
-            O filme explora o desafio de manter um <br /> relacionamento amoroso com essa
-             limitação e a luta deles contra <br /> a doença, mostrando a importância de 
-             aproveitar <br />  a vida apesar das dificuldades.  </p>
+        <h1 className='h1C'>O paciente</h1>
+        <p>Numa série de publicações online, Parker H., um jovem <br />
+        e ambicioso psiquiatra, relata o seu terrível trabalho num <br />
+         hospital psiquiátrico e o seu esforço para curar um paciente <br />
+          desconcertante e muito perigoso: um homem de 40 anos que <br />
+           está internado desde os 6. </p>
         </div>
 
         </div>
         <div className='categoriaT2'>
 
-        <img src={Livro2} alt="livro1" className='imagemP' /> 
+        <img src={Livro6} alt="livro1" className='imagemP' /> 
 
         <div>
 
-        <h1 className='h1C'>A Cinco Passos de Você</h1>
-     <p>"A Cinco Passos de Você" conta a história de Stella e Will, <br />
-         dois jovens com fibrose cística, uma doença pulmonar grave. <br /> Eles se 
-          apaixonam, mas precisam manter uma distância de seis <br /> pés para  evitar 
-           a propagação de bactérias entre eles, já que <br />a doença é  contagiosa. 
-            O filme explora o desafio de manter um <br /> relacionamento amoroso com essa
-             limitação e a luta deles contra <br /> a doença, mostrando a importância de 
-             aproveitar <br />  a vida apesar das dificuldades.  </p>
+        <h1 className='h1C'>A Terra Faminta</h1>
+     <p> Costa Book Awards une drama familiar e fantasia em intrigante <br />
+      terror psicológicoQuando o filho de cinco anos de Juliette e Richard <br />
+       morre de repente após cometer uma série de atos inexplicáveis de <br />
+        violência — instigado, segundo ele, por uma voz misteriosa —, o <br />
+        mundo dos dois desmorona.  </p>
         </div>
 
         </div>
@@ -152,9 +151,52 @@ function Inicio() {
       </div>
  </div>
 
+{/* CATEGORIA 4 (ANIME) */}
+      {/* <div className='categoria3'>
+        <h1 className='h1R2'  >Categoría: Terror</h1>
+ <div className='categ' id='categ'>
+
+        <div className='categoriaT2'>
+
+        <img src={Livro5} alt="livro1" className='imagemP' /> 
+
+        <div>
+
+        <h1 className='h1C'>O paciente</h1>
+        <p>Numa série de publicações online, Parker H., um jovem <br />
+        e ambicioso psiquiatra, relata o seu terrível trabalho num <br />
+         hospital psiquiátrico e o seu esforço para curar um paciente <br />
+          desconcertante e muito perigoso: um homem de 40 anos que <br />
+           está internado desde os 6. </p>
+        </div>
+
+        </div>
+        <div className='categoriaT2'>
+
+        <img src={Livro6} alt="livro1" className='imagemP' /> 
+
+        <div>
+
+        <h1 className='h1C'>A Terra Faminta</h1>
+     <p> Costa Book Awards une drama familiar e fantasia em intrigante <br />
+      terror psicológicoQuando o filho de cinco anos de Juliette e Richard <br />
+       morre de repente após cometer uma série de atos inexplicáveis de <br />
+        violência — instigado, segundo ele, por uma voz misteriosa —, o <br />
+        mundo dos dois desmorona.  </p>
+        </div>
+
+        </div>
+
       </div>
+ </div> */}
+      </div>
+      
+      <footer>
+        <p className='rodape'></p>
+      </footer>
 
    
+    </>
   )
 }
 

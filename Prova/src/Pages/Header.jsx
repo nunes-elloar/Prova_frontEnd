@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
         <nav className="barra">
-  <Link to="/">Inicio</Link> | <Link to="perfil">Perfil</Link>  | <Link to="mais">Mais...</Link> | <Link to="sobre">Sobre a Página</Link>
-        <hr/>
+  <Link to="/" className="link">Sugestões</Link> 
+   <Link to="perfil" className="link">Perfil</Link> 
+     <Link to="mais" className="link">Mais...</Link> 
+      <Link to="sobre" className="link">Sobre a Página</Link>
+            
+        <hr className="hr"/>
         </nav>
 
     )
