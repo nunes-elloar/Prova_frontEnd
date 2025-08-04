@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(173, 173, 173); /*mudar para branco e a barra azul*/
+    background-color: #f2f2f2; /*mudar para branco e a barra azul*/
     color: black;
 }
 .imagemP{
     width: 250px;
     height: 250px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .h1C{
     font-size: 20px;
@@ -74,12 +74,13 @@ body{
 }
 .pesquisa{
     position: relative;
-    left: 40%;
     width: 20%;
     height: 25px;
     border: 1px solid black;
     border-radius: 5px;
-    top: 30px;
+    top: 40px;
+    left: 20px;
+    
 }
 .sugestoes{
     margin: 0px;
@@ -100,7 +101,7 @@ body{
   margin: 0px;
   padding: 20px;
   border-radius: 5px;
-  background-color: white;
+  background-color: #7ab5c7;
 
 }
 
@@ -136,7 +137,7 @@ h1, p {
 }
 
 .link:hover {
-  color:rgb(173, 173, 173);
+  color:white;
 }
 .sobre{
     display: flex;

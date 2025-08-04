@@ -5,13 +5,37 @@ import Livro3 from "../image/1-67eed492626a5_mini.webp"
 import Livro4 from "../image/livroRomance.webp"
 import Livro5 from "../image/livroTerror.webp"
 import Livro6 from "../image/terrafamnormal1.jpg"
+import imagem from "../icon/5832416.png"
 
 function Inicio() {
   return (
     <>
-      <div className='pesquisas'>
-       <input type="text" className='pesquisa'  placeholder='Pesquisa'/>
-      </div>
+      <div className='pesquisa' style={{ 
+  display: 'flex', 
+  alignItems: 'center', 
+  border: '1px solid #ccc', 
+  borderRadius: '5px', 
+  padding: '5px 10px', 
+  height: '40px', 
+  width: '300px', 
+  gap: '8px' 
+}}>
+  <img 
+    src={imagem} 
+    alt="Ícone de pesquisa" 
+    style={{ width: '20px', height: '20px' }} 
+  />
+  <input 
+    type="text" 
+    style={{ 
+      border: 'none', 
+      outline: 'none', 
+      flex: 1, 
+      fontSize: '16px' 
+    }} placeholder='Pesquisa'
+  />
+</div>
+
     <div className='container'>
       
 
