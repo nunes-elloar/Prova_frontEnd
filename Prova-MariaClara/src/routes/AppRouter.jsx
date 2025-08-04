@@ -5,6 +5,7 @@ import Mais from "../Pages/Mais";
 import SobreApag from "../Pages/SobreApag";
 import Inicio from "../Pages/Inicio";
 import Erro from "../Pages/Erro";
+import '../App.css'
 
 const AppRouter = () => {
     return(

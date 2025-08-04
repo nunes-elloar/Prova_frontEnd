@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: #C3A18C;
+
 }
 
 .barra {
@@ -15,12 +20,10 @@ body {
   position: relative;
   margin: 0px;
   padding: 20px;
-
 }
 
 .link {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: black;
   font-size: 20px;
@@ -35,15 +38,36 @@ body {
 .container_perfil {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-
   background-color: #E6DBD4;
   width: 500px;
   height: 500px;
   border-radius: 15px;
   padding: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 .link:hover {
   color: red;
+}
+
+.inform_perfil {
+  background-color: #C3A18C;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.container_mais {
+  
+}
+.livro_pesquisa {
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 160px;
+  border-radius: 10px;
+  border: none;
+
 }
