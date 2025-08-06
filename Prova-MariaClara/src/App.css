@@ -31,8 +31,8 @@ body {
 }
 
 .imagem {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
 
 .container_perfil {
@@ -41,8 +41,8 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: #E6DBD4;
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   border-radius: 15px;
   padding: 10px;
   font-family: "Roboto", sans-serif;
@@ -52,16 +52,16 @@ body {
   color: red;
 }
 
-.inform_perfil {
+.infor_perfil {
   background-color: #C3A18C;
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin: 10px;
 
 }
 
-.container_mais {
-  
-}
+
 .livro_pesquisa {
   display: flex;
   font-size: 15px;
@@ -70,4 +70,11 @@ body {
   border-radius: 10px;
   border: none;
 
+}
+
+button{
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px ;
 }
