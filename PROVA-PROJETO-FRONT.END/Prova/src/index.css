@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+
+
+body{
+    background-color: #f2f2f2; /*mudar para branco e a barra azul*/
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+.imagemP{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}
+.h1C{
+    font-size: 20px;
+}
+.h1C2{
+    font-size: 25px;
+    margin: 0;
+}
+.categoriaC{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+.categoria1{
+    margin: 0px;
+    padding: 20px;
+ 
+}
+.categoriaR, .h1C3{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+.h1R3{
+    gap: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+.categoria2{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.categ{
+    display: flex;
+    gap: 180px;
+}
+.categ3{
+    display: flex;
+    gap: 0px;
+    position: relative;
+    top: 40px;
+}
+.categoriaT2{
+    display: flex;
+    gap: 20px; 
+}
+
+.categoria3{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.h1R2{
+    gap: 20px;
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+    top: 40px;
+}
+#categ{
+    position: relative;
+    top: 70px;
+}
+.pesquisa{
+    position: relative;
+    width: 20%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    top: 40px;
+    left: 20px;
+    
+}
+.sugestoes{
+    margin: 0px;
+    position: relative;
+    left: 20px;
+    font-size: 50px;
+}
+.container{
+    position: relative;
+    top: 100px;
+}
+
+.barra {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+  margin: 0px;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #7ab5c7;
+
+}
+
+.link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+
+}
+h1, p {
+      font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+.imagem {
+  height: 200px;
+  width: 200px;
+}
+
+.container_perfil {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #E6DBD4;
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.link:hover {
+  color:white;
+}
+.sobre{
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+.sobre1{
+background-color:  #C3A18C;
+
+}
+.categoria4{
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+#h1{
+       font-size: 25px;
+}
+#aba{
+position: relative;
+left: 35px;
+}
+.name{
+    color: white;
+    font-size: 20px;
+}
+.tudoLN{
+ display: flex;
+gap: 20px;
+margin: 0px;
+padding: 20px;
+}
+.tudo{
+    background-color: black;
+ position: relative;
+ top: 350px;
+ height: 120px;
+ color: white;
+ display: flex;
+
+}
+.rd{
+   color: white;
+   font-size: 15px;
+}
+.redesociais{
+ position: relative;
+ left: 32%;
+}
+.nome{
+    color: white;
+      font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  top: 10px;
+}
+.ln{
+display: flex;
+gap: 30px;
+position: relative;
+left: 400px;
+}
+.imagem {
+  height: 200px;
+  width: 200px;
+  height: 100px;
+  width: 100px;
+}
+.infor_perfil {
+  background-color: #C3A18C;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin: 10px;}
+
+  .container_perfil {
+
+  justify-content: center;
+  flex-direction: column;
+  background-color: #E6DBD4;
+  width: 500px;
+  height: 500px;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  color: red;
+  margin: 0;
+}
