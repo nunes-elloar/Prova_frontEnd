@@ -1,78 +1,101 @@
-body{
-    background-color: #f2f2f2; /*mudar para branco e a barra azul*/
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+
+
+body {
+    background-color: #f2f2f2;
     color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
 }
-.imagemP{
+
+.imagemP {
     width: 250px;
     height: 250px;
     border: 1px solid black;
 }
-.h1C{
+
+.h1C {
     font-size: 20px;
 }
-.h1C2{
-    font-size: 20px;
+
+.h1C2 {
+    font-size: 25px;
     margin: 0;
 }
-.categoriaC{
+
+.categoriaC {
     display: flex;
     gap: 20px;
     position: relative;
     top: 30px;
 }
-.categoria1{
+
+.categoria1 {
     margin: 0px;
     padding: 20px;
- 
+
 }
-.categoriaR, .h1C3{
+
+.categoriaR,
+.h1C3 {
     display: flex;
     gap: 20px;
     position: relative;
     top: 30px;
 }
-.h1R3{
+
+.h1R3 {
     gap: 20px;
     font-size: 20px;
     margin: 0;
 }
-.categoria2{
+
+.categoria2 {
     position: relative;
     top: 10px;
     left: 20px;
 }
-.categ{
+
+.categ {
     display: flex;
     gap: 180px;
 }
-.categ3{
+
+.categ3 {
     display: flex;
     gap: 0px;
     position: relative;
     top: 40px;
 }
-.categoriaT2{
+
+.categoriaT2 {
     display: flex;
-    gap: 20px; 
+    gap: 20px;
 }
 
-.categoria3{
+.categoria3 {
     position: relative;
     top: 10px;
     left: 20px;
 }
-.h1R2{
+
+.h1R2 {
     gap: 20px;
     font-size: 20px;
     margin: 0;
     position: relative;
     top: 40px;
 }
-#categ{
+
+#categ {
     position: relative;
     top: 70px;
 }
-.pesquisa{
+
+.pesquisa {
     position: relative;
     width: 20%;
     height: 25px;
@@ -80,76 +103,207 @@ body{
     border-radius: 5px;
     top: 40px;
     left: 20px;
-    
+
 }
-.sugestoes{
+
+.sugestoes {
     margin: 0px;
     position: relative;
     left: 20px;
     font-size: 50px;
 }
-.container{
+
+.container {
     position: relative;
     top: 100px;
 }
 
 .barra {
-  display: flex;
-  align-items: center;
-  gap: 300px;
-  position: relative;
-  margin: 0px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: #7ab5c7;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    position: relative;
+    margin: 0px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #7ab5c7;
 
 }
 
 .link {
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: black;
-  font-size: 20px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
 
 }
-h1, p {
-      font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: black;
+
+h1,
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: black;
 }
 
 .imagem {
-  height: 200px;
-  width: 200px;
+    height: 200px;
+    width: 200px;
 }
 
 .container_perfil {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
-  background-color: #E6DBD4;
-  width: 500px;
-  height: 500px;
-  border-radius: 15px;
-  padding: 10px;
+    background-color: #E6DBD4;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .link:hover {
-  color:white;
+    color: white;
 }
-.sobre{
+
+.sobre {
     display: flex;
     position: relative;
     left: 40%;
 }
-.sobre1{
-background-color:  #C3A18C;
+
+.sobre1 {
+    background-color: #b3d8e4;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 30px;
 
 }
-.rodape{
+
+.categoria4 {
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+
+#h1 {
+    font-size: 25px;
+}
+
+#aba {
+    position: relative;
+    left: 35px;
+}
+
+.name {
+    color: white;
+    font-size: 20px;
+}
+
+.tudoLN {
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.tudo {
     background-color: black;
-    width: 100%;
-    height: 20%;
+    position: relative;
+    top: 350px;
+    height: 120px;
+    color: white;
+    display: flex;
+
+}
+
+.rd {
+    color: white;
+    font-size: 15px;
+}
+
+.redesociais {
+    position: relative;
+    left: 32%;
+}
+
+.nome {
+    color: white;
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: 10px;
+}
+
+.ln {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 400px;
+}
+
+.imagem {
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    position: relative;
+    left: 30%;
+    border-radius: 50%;
+}
+
+.infor_perfil {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container_perfil {
+
+    justify-content: center;
+    background-color: #b3d8e4;
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+    margin: 0;
+}
+
+.pesquisa {
+    display: flex;
+
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 40px;
+    width: 300px;
+    gap: 8px
+}
+
+.text {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.tudoPerfil {
+
+
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.nomeU{
+    font-size: 30px;
 }

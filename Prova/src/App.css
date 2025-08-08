@@ -1,1 +1,25 @@
 
+.container {
+
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+   
+  }
+.categ{
+    display: flex;
+    flex-direction: column;
+     gap: 20px;
+}
+#aba{
+position: relative;
+left: 0px;
+}
+}
+
+
+

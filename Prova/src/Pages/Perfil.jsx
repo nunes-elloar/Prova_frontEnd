@@ -1,19 +1,49 @@
 import React from 'react'
-import img from "../image/do-utilizador.png"
+import  { useEffect, useState } from 'react'
+import img from "../image/download.jpg"
+
 
 function Perfil() {
+
+  const [carregando, setCarregando] = useState(true);
+  const [dado, setDado] = useState(null);
+
+  useEffect(() => {
+
+    setTimeout(() => {
+      setDado("Conteúdo carregado!");
+      setCarregando(false);
+    }, 2000);
+  }, []);
+
+
   return (
-    <div className='container_perfil'>
-      <h1>Perfil</h1>
-      <div className='perfil'>
-      <img src={img} alt="" className='imagem'/>
-      <h1>Nome: usuario</h1>
-      <p>Sobre você:</p>
-      <p>Gênero favorito: ...</p>
-      <p>Livro favorito: ...</p>
+ <>
+      <div className='tudoPerfil'>
+        {carregando ? <div><strong>Carregando...</strong></div> : <div>{
+          <div className='container_perfil'>
+            <h1>Usuário</h1>
+            <div className='perfil'>
+              <img src={img} alt="" className='imagem' />
+              <div className='infor_perfil'>
+                <h1 className='nomeU'> <strong>Nome: </strong>Izabela</h1>
+                <p> <strong> Sobre você:</strong> Sou apaixonada por literatura.</p>
+                <p> <strong> Gênero favorito:</strong> Romance</p>
+                <p> <strong>Livro favorito:</strong> Iracema em cena</p>
+              </div>
+
+            </div>
+          </div>
+        }</div>}
       </div>
-    </div>
-  )
+
+
+
+    </>
+
+            )
+
+
 }
 
-export default Perfil
+            export default Perfil

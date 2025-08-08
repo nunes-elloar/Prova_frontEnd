@@ -7,9 +7,13 @@ function Header() {
         <nav className="barra">
   <Link to="/" className="link">Sugestões</Link> 
    <Link to="perfil" className="link">Perfil</Link> 
-     <Link to="mais" className="link">Mais...</Link> 
-      <Link to="sobre" className="link">Página</Link> 
-      <img src={imagem} alt="" style={{width: '100px', height: '100px', borderRadius: '50px'}} />
+      <Link to="sobre" className="link">Sobre a Página</Link> 
+      
+      <div className="ln">
+
+      <img className="logoS" src={imagem} alt="" style={{width: '100px', height: '100px', borderRadius: '50px'}} />
+      <h1 className="nome">Between Covers Library</h1>
+      </div>
             
         <hr className="hr"/>
         </nav>
